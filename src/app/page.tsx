@@ -1,103 +1,123 @@
+import { Button } from "@/components/ui/button";
+import fs from "fs";
+import { ArrowRight, Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
 import Image from "next/image";
+import path from "path";
 
 export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+  const masonryDirectory = path.join(process.cwd(), "public/masonry");
+  const imageFilenames = fs.readdirSync(masonryDirectory);
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+  return (
+    <div className="min-h-screen overflow-x-hidden">
+      {/* Section 1: Header/Hero */}
+      <section className="min-h-screen grid grid-cols-1 lg:grid-cols-2">
+        {/* Left side - Text and CTA */}
+        <div className="flex flex-col justify-center px-6 lg:px-24 py-12 space-y-8 pt-16 lg:pt-12">
+          <h1 className="h1 leading-tight">
+            Ismail Vali is the inventor, founder and CEO of Yield Sec.
+          </h1>
+          <div className="flex gap-4">
+            <Button size="lg" className="button-text" asChild>
+              <a href="#connect">Get in touch</a>
+            </Button>
+            <Button variant="outline" size="lg" className="button-text" asChild>
+              <a href="#about" className="flex items-center gap-2">
+                About me
+                <ArrowRight className="size-4" />
+              </a>
+            </Button>
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+
+        {/* Right side - Image */}
+        <div className="relative hidden lg:block">
           <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
+              src="/header-image.png"
+              alt="Ismail Vali - Professional Portfolio Header"
+              fill
+              className="object-cover rounded-l-xl"
+              priority
           />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+        </div>
+      </section>
+
+      {/* Section 2: About */}
+      <section id="about" className="px-6 py-24">
+        <div className="w-full">
+          <h2 className="section-title mb-16">About</h2>
+
+          <div className="max-w-6xl mx-auto space-y-16">
+            <p className="h3 leading-snug">
+              Ismail Vali is the inventor, founder and CEO of Yield Sec, and leads a team of experts in the creation of a technical intelligence platform that helps monitor, police, enforce, and optimize the licensed marketplace across online betting, gaming, and lottery activity. Yield Sec's mission focuses on removing black-market threats to revenue, taxation, and consumer protection, benefiting the ecosystem overall.
+            </p>
+
+            {/* Image Masonry */}
+            <div className="columns-1 md:columns-2 lg:columns-3 gap-8 space-y-8">
+              {imageFilenames.map((filename, index) => (
+                <div key={index} className="break-inside-avoid">
+                  <Image
+                    src={`/masonry/${filename}`}
+                    alt={`Masonry gallery image ${index + 1}`}
+                    width={500}
+                    height={500}
+                    className="w-full h-auto rounded-lg"
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Section 3: Yield Sec */}
+      <section className="px-6 py-24">
+        <div className="w-full">
+          <h2 className="section-title mb-8">Yield Sec</h2>
+          <div className="max-w-6xl mx-auto space-y-16">
+            <p className="h3 leading-snug">
+              Yield Sec™ is a technical intelligence platform for online marketplaces. Our data, analytics and advisory products and services allow our clients to decrease costs, mitigate risks, increase revenues or taxation receipts and achieve certainty. Talk to us today to know your total marketplace audience, activity and opportunity, and secure an optimized online future.
+            </p>
+            <div className="flex justify-start">
+              <Button size="lg" className="button-text" asChild>
+                <a href="https://www.yieldsec.com/" target="_blank" rel="noopener noreferrer">
+                  Visit Yieldsec.com
+                </a>
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Section 4: Connect */}
+      <section id="connect" className="connect-section px-6 py-24">
+        <div className="w-full">
+          <h2 className="section-title mb-16">Connect</h2>
+          <div className="max-w-4xl mx-auto">
+            {/* Contact Information */}
+            <div className="space-y-6 mb-12">
+              <p className="h2 tracking-tight">ismail.vali@yieldsec.com</p>
+              <p className="h2 tracking-tight">+1 323 841 5853</p>
+            </div>
+
+            {/* Social Media */}
+            <div className="flex items-center gap-4">
+              <Button size="icon" className="connect-section-icon-button rounded-full">
+                <Twitter className="size-5" />
+              </Button>
+              <Button size="icon" className="connect-section-icon-button rounded-full">
+                <Linkedin className="size-5" />
+              </Button>
+              <Button size="icon" className="connect-section-icon-button rounded-full">
+                <Facebook className="size-5" />
+              </Button>
+              <Button size="icon" className="connect-section-icon-button rounded-full">
+                <Instagram className="size-5" />
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
