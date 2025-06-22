@@ -7,10 +7,9 @@ export function DarkModeToggle() {
   const [isDark, setIsDark] = useState(false);
 
   useEffect(() => {
-    // On mount, check system or saved preference
+    // On mount, check saved preference or default to light mode
     const saved = localStorage.getItem("theme");
-    const system = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    if (saved === "dark" || (!saved && system)) {
+    if (saved === "dark") {
       document.documentElement.classList.add("dark");
       setIsDark(true);
     } else {
