@@ -1,0 +1,16 @@
+{
+  "name": "Ismail Vali - Founder & CEO of Yield Sec",
+  "short_name": "Ismail Vali",
+  "description": "Ismail Vali is the inventor, founder and CEO of Yield Sec, a technical intelligence platform for online marketplaces.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#303030",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
