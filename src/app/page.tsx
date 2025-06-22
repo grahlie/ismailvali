@@ -93,7 +93,7 @@ export default function Home() {
       <section id="connect" className="connect-section px-6 py-24">
         <div className="w-full">
           <h2 className="section-title mb-16">Connect</h2>
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-4xl mx-auto text-center md:text-left">
             {/* Contact Information */}
             <div className="space-y-6 mb-12">
               <p className="h2 tracking-tight">ismail.vali@yieldsec.com</p>
@@ -101,7 +101,7 @@ export default function Home() {
             </div>
 
             {/* Social Media */}
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-4 justify-center md:justify-start">
               <Button size="icon" className="connect-section-icon-button rounded-full">
                 <Twitter className="size-5" />
               </Button>

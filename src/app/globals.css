@@ -26,15 +26,14 @@
 }
 
 :root {
-  /* Font Variables */
+  /* Font Variables - Mobile First */
   --font-raleway: var(--font-raleway);
   --font-weight-black: 900;
   --font-weight-bold: 700;
-  --font-size-h1: 48px;
-  --font-size-h2: 36px;
-  --font-size-h3: 24px;
+  --font-size-h1: 32px;
+  --font-size-h2: 28px;
+  --font-size-h3: 20px;
   --font-size-button: 16px;
-  --font-size-section-title: 240px;
   --font-size-body: 16px;
 
   /* Color Variables */
@@ -101,15 +100,30 @@
 
   .section-title {
     font-weight: var(--font-weight-black);
-    font-size: var(--font-size-section-title);
+    font-size: 48px; /* Safe mobile default */
     color: var(--foreground);
     white-space: nowrap;
     overflow: hidden;
     text-overflow: clip;
-    margin-left: -60px;
-    margin-right: -60px;
-    width: calc(100% + 120px);
     text-transform: uppercase;
+    text-align: center; /* Center on mobile */
+  }
+
+  /* Desktop Overrides */
+  @media (min-width: 768px) {
+    :root {
+      --font-size-h1: 48px;
+      --font-size-h2: 36px;
+      --font-size-h3: 24px;
+    }
+
+    .section-title {
+      font-size: 240px; /* Large desktop size */
+      margin-left: -60px;
+      margin-right: -60px;
+      width: calc(100% + 120px);
+      text-align: left; /* Re-align on desktop */
+    }
   }
 
   .section-title-white {
