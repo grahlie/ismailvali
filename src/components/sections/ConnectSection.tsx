@@ -2,7 +2,9 @@
 
 import { Button } from "@/components/ui/button";
 import { FadeInSection } from "@/components/ui/fade-in-section";
-import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
+import { Instagram, Linkedin, Twitter, Youtube } from "lucide-react";
+import { BlueskyIcon } from "../icons/BlueskyIcon";
+import { TiktokIcon } from "../icons/TiktokIcon";
 
 export function ConnectSection() {
   return (
@@ -19,18 +21,36 @@ export function ConnectSection() {
 
             {/* Social Media */}
             <div className="flex items-center gap-4 justify-center md:justify-start">
-              <Button size="icon" className="connect-section-icon-button rounded-full">
-                <Twitter className="size-5" />
-              </Button>
-              <Button size="icon" className="connect-section-icon-button rounded-full">
-                <Linkedin className="size-5" />
-              </Button>
-              <Button size="icon" className="connect-section-icon-button rounded-full">
-                <Facebook className="size-5" />
-              </Button>
-              <Button size="icon" className="connect-section-icon-button rounded-full">
-                <Instagram className="size-5" />
-              </Button>
+              <a href="https://x.com/yieldsec" target="_blank" rel="noopener noreferrer">
+                <Button size="icon" className="connect-section-icon-button rounded-full">
+                  <Twitter className="size-5" />
+                </Button>
+              </a>
+              <a href="https://www.linkedin.com/company/yieldsec/" target="_blank" rel="noopener noreferrer">
+                <Button size="icon" className="connect-section-icon-button rounded-full">
+                  <Linkedin className="size-5" />
+                </Button>
+              </a>
+              <a href="https://www.instagram.com/yieldsec/" target="_blank" rel="noopener noreferrer">
+                <Button size="icon" className="connect-section-icon-button rounded-full">
+                  <Instagram className="size-5" />
+                </Button>
+              </a>
+              <a href="https://www.tiktok.com/@yieldsec" target="_blank" rel="noopener noreferrer">
+                <Button size="icon" className="connect-section-icon-button rounded-full">
+                  <TiktokIcon className="size-5" />
+                </Button>
+              </a>
+              <a href="https://bsky.app/profile/yield-sec.bsky.social" target="_blank" rel="noopener noreferrer">
+                <Button size="icon" className="connect-section-icon-button rounded-full">
+                  <BlueskyIcon className="size-5" />
+                </Button>
+              </a>
+              <a href="https://www.youtube.com/@yieldsecglobal" target="_blank" rel="noopener noreferrer">
+                <Button size="icon" className="connect-section-icon-button rounded-full">
+                  <Youtube className="size-5" />
+                </Button>
+              </a>
             </div>
           </div>
         </div>
