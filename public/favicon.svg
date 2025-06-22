@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Dark background circle -->
+  <circle cx="16" cy="16" r="16" fill="#303030"/>
+
+  <!-- White initials "IV" -->
+  <text x="16" y="22" font-family="Raleway, Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">IV</text>
+</svg>

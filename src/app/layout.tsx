@@ -17,6 +17,9 @@ const raleway = Raleway({
 export const metadata: Metadata = {
   title: "Ismail Vali - Professional Portfolio",
   description: "Professional portfolio and services by Ismail Vali",
+  icons: {
+    icon: '/favicon.svg',
+  },
 };
 
 export default function RootLayout({
