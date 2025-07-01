@@ -2,15 +2,10 @@ import { AboutSection } from "@/components/sections/AboutSection";
 import { ConnectSection } from "@/components/sections/ConnectSection";
 import { YieldSecSection } from "@/components/sections/YieldSecSection";
 import { Button } from "@/components/ui/button";
-import fs from "fs";
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
-import path from "path";
 
 export default function Home() {
-  const masonryDirectory = path.join(process.cwd(), "public/masonry");
-  const imageFilenames = fs.readdirSync(masonryDirectory);
-
   return (
     <main className="min-h-screen overflow-x-hidden">
       {/* Section 1: Header/Hero */}
@@ -48,7 +43,7 @@ export default function Home() {
         </div>
       </section>
 
-      <AboutSection imageFilenames={imageFilenames} />
+      <AboutSection />
       <YieldSecSection />
       <ConnectSection />
     </main>
