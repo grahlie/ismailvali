@@ -7,10 +7,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="min-h-screen overflow-x-hidden">
-      {/* Section 1: Header/Hero */}
+    <main className="min-h-screen">
       <section className="min-h-screen grid grid-cols-1 lg:grid-cols-2">
-        {/* Left side - Text and CTA */}
         <div className="flex flex-col justify-center px-6 lg:px-24 py-12 space-y-8 pt-16 lg:pt-12">
           <h1 className="h1 leading-tight">
             Ismail Vali is the inventor, founder and CEO of Yield Sec, a leading technical intelligence platform for online marketplaces.
@@ -31,13 +29,12 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Right side - Image */}
         <div className="relative hidden lg:block">
           <Image
               src="/header-image.png"
               alt="Ismail Vali - Founder and CEO of Yield Sec, Technical Intelligence Platform Expert"
               fill
-              className="object-cover rounded-l-xl"
+              className="object-cover object-top xl:object-center 2xl:object-top rounded-l-xl"
               priority
           />
         </div>

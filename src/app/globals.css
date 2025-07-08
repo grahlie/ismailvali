@@ -81,6 +81,7 @@
   .h1 {
     font-weight: var(--font-weight-black);
     font-size: var(--font-size-h1);
+    /* Don't set line-height here to allow leading-tight class to work */
   }
 
   .h2 {
@@ -100,13 +101,14 @@
 
   .section-title {
     font-weight: var(--font-weight-black);
-    font-size: 48px; /* Safe mobile default */
+    font-size: clamp(48px, 12vw, 160px); /* Responsive font size - bigger from start */
     color: var(--foreground);
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: clip;
     text-transform: uppercase;
-    text-align: center; /* Center on mobile */
+    text-align: left; /* Left align on all screen sizes */
+    line-height: 0.9; /* Tighter line height for large text */
+    letter-spacing: -0.02em; /* Slightly tighter letter spacing */
+    position: relative;
+    left: -6vw; /* Mobile positioning */
   }
 
   /* Desktop Overrides */
@@ -118,17 +120,17 @@
     }
 
     .section-title {
-      font-size: 240px; /* Large desktop size */
-      margin-left: -60px;
-      margin-right: -60px;
-      width: calc(100% + 120px);
+      font-size: clamp(64px, 16vw, 240px); /* Responsive font size for desktop - bigger from start */
       text-align: left; /* Re-align on desktop */
+      left: -4vw; /* Desktop positioning */
     }
   }
 
   .section-title-white {
     color: var(--background);
   }
+
+
 
   .body {
     font-weight: var(--font-weight-bold);

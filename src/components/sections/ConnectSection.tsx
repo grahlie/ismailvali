@@ -9,17 +9,15 @@ import { TiktokIcon } from "../icons/TiktokIcon";
 export function ConnectSection() {
   return (
     <FadeInSection>
-      <section id="connect" className="connect-section px-6 py-24">
-        <div className="w-full">
+      <section id="connect" className="connect-section py-24">
+        <div className="w-full px-6">
           <h2 className="section-title mb-16">Connect</h2>
           <div className="max-w-4xl mx-auto text-center md:text-left">
-            {/* Contact Information */}
             <div className="space-y-6 mb-12">
               <p className="h2 tracking-tight">ismail.vali@yieldsec.com</p>
               <p className="h2 tracking-tight">+1 323 841 5853</p>
             </div>
 
-            {/* Social Media */}
             <div className="flex items-center gap-4 justify-center md:justify-start">
               <a href="https://x.com/yieldsec" target="_blank" rel="noopener noreferrer">
                 <Button size="icon" className="connect-section-icon-button rounded-full">

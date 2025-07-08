@@ -7,7 +7,6 @@ export function DarkModeToggle() {
   const [isDark, setIsDark] = useState(false);
 
   useEffect(() => {
-    // On mount, check saved preference or default to light mode
     const saved = localStorage.getItem("theme");
     if (saved === "dark") {
       document.documentElement.classList.add("dark");

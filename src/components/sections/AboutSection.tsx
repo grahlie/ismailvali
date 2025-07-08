@@ -7,30 +7,29 @@ import Image from "next/image";
 export function AboutSection() {
   return (
     <FadeInSection>
-      <section id="about" className="px-6 py-24">
-        <div className="w-full">
+      <section id="about" className="py-24">
+        <div className="w-full px-6">
           <h2 className="section-title mb-16">About</h2>
 
           <div className="max-w-6xl mx-auto space-y-16">
             <div className="space-y-8">
               <p className="h3 leading-snug">
-                Ismail Vali is the inventor, founder and CEO of Yield Sec, and leads a team of experts in the creation of a technical intelligence platform that helps monitor, police, enforce, and optimize the licensed marketplace across online betting, gaming, and lottery activity.
+                Ismail Vali is the inventor, founder and CEO of Yield Sec, and leads a team of experts across the operations of a technical intelligence platform that helps monitor, police, enforce, and optimize the marketplace across online gambling, streaming, crypto and consumer goods.
               </p>
 
               <p className="h3 leading-snug">
-                Yield Sec&apos;s mission focuses on removing black-market threats to revenue, taxation, and consumer protection, benefiting the ecosystem overall. As a technical intelligence platform for online marketplaces, Yield Sec provides comprehensive data, analytics and advisory products and services that allow clients to decrease costs, mitigate risks, increase revenues or taxation receipts and achieve certainty.
+                Yield Sec’s mission focuses on removing black-market threats to revenue, taxation, and consumer protection, benefiting the ecosystem overall.
               </p>
 
               <p className="h3 leading-snug">
-                Under Ismail Vali&apos;s leadership, Yield Sec has become a trusted partner for organizations seeking to understand their total marketplace audience, activity and opportunity, and secure an optimized online future across gambling, streaming, crypto, and consumer markets.
+                Ismail’s background in online gambling, product development, marketing, and online operations, with numerous C-level operator positions in the betting and gaming industry, coupled with his academic legal background - including a BA and MA in Law from Brasenose College, Oxford University - led to the invention of a unique solution to restrict and remove the harm caused by what has long been an endemic online industry problem: crime and its impact upon commerce, consumers, and the community.
               </p>
             </div>
 
-            {/* Unified Media Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {media.map((item) => (
                 <div key={item.id} className="flex flex-col">
-                  <div className="h-64 rounded-lg overflow-hidden bg-gray-200 relative">
+                  <div className="aspect-video rounded-lg overflow-hidden bg-slate-800 relative">
                     {item.type === "image" && item.filename && (
                       <Image
                         src={`/masonry/${item.filename}`}
@@ -47,17 +46,24 @@ export function AboutSection() {
                         className="block group h-full"
                       >
                         <Image
-                          src={`https://img.youtube.com/vi/${item.youtubeId}/maxresdefault.jpg`}
+                          src={item.thumbnail || `https://img.youtube.com/vi/${item.youtubeId}/maxresdefault.jpg`}
                           alt={item.title}
                           fill
-                          className="object-cover group-hover:scale-105 transition-transform duration-300"
+                          className="object-contain object-center w-full h-full group-hover:scale-105 transition-transform duration-300"
+                          sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                           onError={(e) => {
                             const target = e.target as HTMLImageElement;
-                            target.src = `https://img.youtube.com/vi/${item.youtubeId}/mqdefault.jpg`;
+                            if (item.thumbnail) {
+                              // If custom thumbnail fails, fall back to YouTube thumbnail
+                              target.src = `https://img.youtube.com/vi/${item.youtubeId}/maxresdefault.jpg`;
+                            } else {
+                              // If YouTube maxresdefault fails, fall back to mqdefault
+                              target.src = `https://img.youtube.com/vi/${item.youtubeId}/mqdefault.jpg`;
+                            }
                           }}
                         />
-                        <div className="absolute inset-0 bg-black bg-opacity-20 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
-                          <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                        <div className="absolute inset-0 flex items-center justify-center">
+                          <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg">
                             <svg className="w-8 h-8 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
                               <path d="M8 5v14l11-7z"/>
                             </svg>
