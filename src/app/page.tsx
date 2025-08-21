@@ -13,9 +13,6 @@ export default function Home() {
           <h1 className="h1 leading-tight">
             Ismail Vali is the inventor, founder and CEO of Yield Sec, a leading technical intelligence platform for online marketplaces.
           </h1>
-          <p className="h3 text-muted-foreground">
-            Expert in gambling intelligence, streaming analytics, crypto market intelligence, and consumer protection across online marketplaces.
-          </p>
           <div className="flex gap-4">
             <Button size="lg" className="button-text" asChild>
               <a href="#connect">Get in touch</a>

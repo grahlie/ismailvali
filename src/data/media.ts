@@ -31,14 +31,16 @@ export const media: MediaItem[] = [
   },
   {
     id: 2,
-    type: "image",
-    filename: "two.png",
-    title: "ICE Barcelona 2025"
+    type: "video",
+    youtubeId: "EAsXwI3StQk",
+    title: "Ismail Vali on what lets illegal operators thrive",
+    thumbnail: "/masonry/ice_barcelona_2.jpg",
   },
   {
     id: 1,
-    type: "image",
-    filename: "one.png",
-    title: "ICE Barcelona 2025"
+    type: "video",
+    youtubeId: "G-abOfUgiec",
+    title: "ICE Barcelona 2025",
+    thumbnail: "/masonry/ice_barcelona.jpg",
   },
 ];
