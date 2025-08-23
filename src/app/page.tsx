@@ -16,7 +16,7 @@ export default function Home() {
               src="/header-image.png"
               alt="Ismail Vali - Founder and CEO of Yield Sec, Technical Intelligence Platform Expert"
               fill
-              className="object-cover object-top"
+              className="object-cover object-top scale-x-[-1]"
               priority
             />
           </div>
@@ -62,7 +62,7 @@ export default function Home() {
                 src="/header-image.png"
                 alt="Ismail Vali - Founder and CEO of Yield Sec, Technical Intelligence Platform Expert"
                 fill
-                className="object-cover object-top xl:object-center 2xl:object-top rounded-l-xl"
+                className="object-cover object-top xl:object-center 2xl:object-top rounded-r-xl scale-x-[-1]"
                 priority
             />
           </div>
