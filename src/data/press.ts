@@ -42,5 +42,11 @@ export const press: PressItem[] = [
     title: "March Madness Gambling: Betting Wagers on Sportsbooks and Illegal Black Market NCAA",
     url: "https://fortune.com/2024/04/12/march-madness-gambling-betting-wagers-sportsbooks-illegal-black-market-ncaa/",
     logo: "/press/fortune.png"
+  },
+  {
+    id: 8,
+    title: "Icelanders spend 36 billion Icelandic króna (ISK) on illegal betting sites",
+    url: "https://www.ruv.is/frettir/innlent/2025-10-21-islendingar-eyda-36-milljordum-a-ologlegum-vedmalasidum-456795",
+    logo: "/press/ruv.png"
   }
 ];
