@@ -2,6 +2,20 @@ import { MediaItem } from "@/types/media";
 
 export const media: MediaItem[] = [
   {
+    id: 8,
+    type: "video",
+    youtubeId: "IZOrlwGjEjs",
+    title: "Kveikur interview (Short).",
+    thumbnail: "/masonry/kveikur_thumbnail.png"
+  },
+  {
+    id: 8,
+    type: "video",
+    youtubeId: "4xEt72cwLrE",
+    title: "Kveikur interview.",
+    thumbnail: "/masonry/kveikur_thumbnail.png"
+  },
+  {
     id: 7,
     type: "video",
     youtubeId: "_4f52yoExJE",
