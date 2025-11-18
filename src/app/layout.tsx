@@ -1,4 +1,4 @@
-import { DarkModeToggle } from "@/components/ui/dark-mode-toggle";
+import "@/lib/localStorage-polyfill";
 import type { Metadata } from "next";
 import { Geist_Mono, Raleway } from "next/font/google";
 import "./globals.css";
@@ -125,7 +125,6 @@ export default function RootLayout({
       >
         <nav className="flex items-center justify-between px-6 h-16 border-b bg-background/80 sticky top-0 z-30">
           <div className="font-bold text-xl tracking-wider">ISMAIL VALI</div>
-          <DarkModeToggle />
         </nav>
         {children}
       </body>

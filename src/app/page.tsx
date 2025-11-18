@@ -1,4 +1,5 @@
 import { AboutSection } from "@/components/sections/AboutSection";
+import { CgiSection } from "@/components/sections/CgiSection";
 import { ConnectSection } from "@/components/sections/ConnectSection";
 import { YieldSecSection } from "@/components/sections/YieldSecSection";
 import { Button } from "@/components/ui/button";
@@ -70,6 +71,7 @@ export default function Home() {
       </section>
 
       <AboutSection />
+      <CgiSection />
       <YieldSecSection />
       <ConnectSection />
     </main>

@@ -15,15 +15,15 @@ export function AboutSection() {
           <div className="max-w-6xl mx-auto space-y-16">
             <div className="space-y-8">
               <p className="h3 leading-snug">
-                Ismail Vali is the inventor, founder and CEO of Yield Sec, and leads a team of experts across the operations of a technical intelligence platform that helps monitor, police, enforce, and optimize the marketplace across online gambling, streaming, crypto and consumer goods.
+              Ismail Vali is the President of <a href="https://gamingcompliance.com/" target="_blank" rel="noopener noreferrer" className="text-blue-700">Gaming Compliance International (GCI)</a> and the inventor, founder and former CEO of <a href="https://yieldsec.com/" target="_blank" rel="noopener noreferrer" className="text-blue-700">Yield Sec™</a>. He leads a global team across the operations of a technical intelligence platform that monitors, polices, enforces, and optimizes the marketplace across online gaming, streaming, crypto and consumer goods.
               </p>
 
               <p className="h3 leading-snug">
-                Yield Sec’s mission focuses on removing black-market threats to revenue, taxation, and consumer protection, benefiting the ecosystem overall.
+                From a career spanning online gaming, product development, marketing, and online operations, including multiple C-level roles across the betting and gaming industry, and with a BA and MA in Law from Brasenose College, Oxford University, Ismail created a unique solution to a long-standing online industry problem: the impact of crime on commerce, communities, and consumers.
               </p>
 
               <p className="h3 leading-snug">
-                Ismail’s background in online gambling, product development, marketing, and online operations, with numerous C-level operator positions in the betting and gaming industry, coupled with his academic legal background - including a BA and MA in Law from Brasenose College, Oxford University - led to the invention of a unique solution to restrict and remove the harm caused by what has long been an endemic online industry problem: crime and its impact upon commerce, consumers, and the community.
+                 In his role as President, he drives GCI’s AI-powered compliance and regulatory technology platform to deliver marketplace transparency, enhanced data capture, actionable intelligence, and transaction monitoring that helps governments, regulators, tribal nations, and operators move their online gaming marketplaces from chaos to control.
               </p>
             </div>
 
