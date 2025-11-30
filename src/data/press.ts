@@ -48,5 +48,17 @@ export const press: PressItem[] = [
     title: "Icelanders spend 36 billion Icelandic króna (ISK) on illegal betting sites",
     url: "https://www.ruv.is/frettir/innlent/2025-10-21-islendingar-eyda-36-milljordum-a-ologlegum-vedmalasidum-456795",
     logo: "/press/ruv.png"
-  }
+  },
+  {
+    id: 9,
+    title: "Yield Sec acquired by Gaming Compliance International (GCI)",
+    url: "https://next.io/news/investment/yield-sec-acquired-gaming-compliance-international/",
+    logo: "/press/next.png"
+  },
+  {
+    id: 10,
+    title: "Inside Yield Sec’s war on illegal gambling",
+    url: "https://next.io/news/features/inside-yield-secs-war-on-illegal-gambling/",
+    logo: "/press/next.png"
+  },
 ];
