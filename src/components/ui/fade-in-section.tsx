@@ -10,7 +10,9 @@ interface FadeInSectionProps {
 export function FadeInSection({ children }: FadeInSectionProps) {
   const { ref, inView } = useInView({
     triggerOnce: true,
-    threshold: 0.1,
+    // Trigger a bit earlier in the scroll, which helps on smaller mobile viewports
+    threshold: 0,
+    rootMargin: "0px 0px -20% 0px",
   });
 
   return (
