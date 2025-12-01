@@ -6,6 +6,8 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 
+const headerText "Ismail Vali is the President of GCI and the inventor, founder and former CEO of Yield Sec™, a leading technical intelligence platform for online marketplaces.";
+
 export default function Home() {
   return (
     <main className="min-h-screen">
@@ -23,7 +25,7 @@ export default function Home() {
           </div>
           <div className="px-6 py-12 space-y-8">
             <h1 className="h1 leading-tight">
-              Ismail Vali is the inventor, founder and CEO of Yield Sec, a leading technical intelligence platform for online marketplaces.
+              {headerText}
             </h1>
             <div className="flex gap-4">
               <Button size="lg" className="button-text" asChild>
@@ -43,7 +45,7 @@ export default function Home() {
         <div className="hidden lg:grid lg:grid-cols-2 lg:min-h-screen">
           <div className="flex flex-col justify-center px-24 py-12 space-y-8 pt-12">
             <h1 className="h1 leading-tight">
-              Ismail Vali is the President of GCI and the inventor, founder and former CEO of Yield Sec™, a leading technical intelligence platform for online marketplaces.
+              {headerText}
             </h1>
             <div className="flex gap-4">
               <Button size="lg" className="button-text" asChild>
