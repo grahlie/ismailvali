@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 
-const headerText "Ismail Vali is the President of GCI and the inventor, founder and former CEO of Yield Sec™, a leading technical intelligence platform for online marketplaces.";
+const headerText = "Ismail Vali is the President of GCI and the inventor, founder and former CEO of Yield Sec™, a leading technical intelligence platform for online marketplaces.";
 
 export default function Home() {
   return (
