@@ -28,7 +28,10 @@ export function AboutSection() {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {media.map((item) => (
+              {media
+              .slice()
+              .sort((a, b) => b.id - a.id)
+              .map((item) => (
                 <div key={item.id} className="flex flex-col">
                   <div className="aspect-video rounded-lg overflow-hidden bg-slate-800 relative">
                     {item.type === "image" && item.filename && (
@@ -85,7 +88,10 @@ export function AboutSection() {
             <div className="space-y-8">
               <h3 className="h3 text-center">In the News</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {press.map((item) => (
+                {press
+                  .slice()
+                  .sort((a, b) => b.id - a.id)
+                  .map((item) => (
                   <a
                     key={item.id}
                     href={item.url}

@@ -8,7 +8,7 @@ export function CgiSection() {
     <FadeInSection>
       <section className="py-24">
         <div className="w-full px-6">
-          <h2 className="section-title mb-8">CGI</h2>
+          <h2 className="section-title mb-8">GCI</h2>
           <div className="max-w-6xl mx-auto space-y-16">
             <p className="h3 leading-snug">
             GCI is the proven leader in regulatory gaming compliance technology and consultancy, providing a single-source, AI-powered platform for player protection, advertising and media content monitoring, black-market mitigation, automated data capture, revenue auditing, and operator compliance reporting.

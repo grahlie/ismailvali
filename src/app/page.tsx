@@ -43,7 +43,7 @@ export default function Home() {
         <div className="hidden lg:grid lg:grid-cols-2 lg:min-h-screen">
           <div className="flex flex-col justify-center px-24 py-12 space-y-8 pt-12">
             <h1 className="h1 leading-tight">
-              Ismail Vali is the President of CGI and the inventor, founder and former CEO of Yield Sec™, a leading technical intelligence platform for online marketplaces.
+              Ismail Vali is the President of GCI and the inventor, founder and former CEO of Yield Sec™, a leading technical intelligence platform for online marketplaces.
             </h1>
             <div className="flex gap-4">
               <Button size="lg" className="button-text" asChild>
