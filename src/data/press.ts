@@ -61,4 +61,16 @@ export const press: PressItem[] = [
     url: "https://next.io/news/investment/yield-sec-acquired-gaming-compliance-international/",
     logo: "/press/next.png"
   },
+  {
+    id: 11,
+    title: "‘It’s shattered our family’: how illicit offshore bookies exploit struggling gamblers who are trying to quit",
+    url: "https://www.theguardian.com/society/2025/dec/17/offshore-bookies-gamblers-uk-self-exclusion-scheme-gamstop?CMP=Share_iOSApp_Other",
+    logo: "/press/theguardian.png"
+  },
+  {
+    id: 12,
+    title: "Dirty game: The explosion of illegal bets threatens the regulated betting market",
+    url: "https://veja.abril.com.br/economia/jogo-sujo-a-explosao-das-bets-ilegais-ameaca-o-mercado-regulado-de-apostas/",
+    logo: "/press/veja.png"
+  },
 ];

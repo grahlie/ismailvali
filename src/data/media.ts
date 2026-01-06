@@ -61,7 +61,14 @@ export const media: MediaItem[] = [
         id: 10,
         type: "video",
         youtubeId: "I1RLlHe93xQ",
-        title: "Yield Sec with Hedgeye",
+        title: "Yield Sec with Hedgeye - August 2025",
         thumbnail: "/masonry/ys_hedgeye_thumbnail.jpg"
+    },
+    {
+        id: 11,
+        type: "video",
+        youtubeId: "-_RTeN5EAYo",
+        title: "Yield Sec with Hedgeye - December 2025",
+        thumbnail: "/masonry/Yield_Sec_with_Hedgeye-DEC-2025.png"
     },
 ];
