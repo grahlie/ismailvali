@@ -39,6 +39,7 @@ export function AboutSection() {
                         src={`/masonry/${item.filename}`}
                         alt={item.title}
                         fill
+                        sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                         className="object-cover"
                       />
                     )}
@@ -47,7 +48,7 @@ export function AboutSection() {
                         href={`https://www.youtube.com/watch?v=${item.youtubeId}`}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="block group h-full"
+                        className="block group h-full relative"
                       >
                         <Image
                           src={item.thumbnail || `https://img.youtube.com/vi/${item.youtubeId}/maxresdefault.jpg`}
@@ -105,6 +106,7 @@ export function AboutSection() {
                           src={item.logo}
                           alt="Publication logo"
                           fill
+                          sizes="96px"
                           className="object-contain"
                         />
                       </div>

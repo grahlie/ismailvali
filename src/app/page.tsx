@@ -19,6 +19,7 @@ export default function Home() {
               src="/header-image.png"
               alt="Ismail Vali - Founder and CEO of Yield Sec, Technical Intelligence Platform Expert"
               fill
+              sizes="100vw"
               className="object-cover object-top scale-x-[-1]"
               priority
             />
@@ -65,6 +66,7 @@ export default function Home() {
                 src="/header-image.png"
                 alt="Ismail Vali - Founder and CEO of Yield Sec, Technical Intelligence Platform Expert"
                 fill
+                sizes="50vw"
                 className="object-cover object-top xl:object-center 2xl:object-top rounded-r-xl scale-x-[-1]"
                 priority
             />
