@@ -73,4 +73,10 @@ export const press: PressItem[] = [
     url: "https://veja.abril.com.br/economia/jogo-sujo-a-explosao-das-bets-ilegais-ameaca-o-mercado-regulado-de-apostas/",
     logo: "/press/veja.png"
   },
+  {
+    id: 13,
+    title: "Drake Lawsuit Exposes $38 Billion Illegal Crypto Casino Market",
+    url: "https://www.forbes.com/sites/boazsobrado/2026/01/08/drake-lawsuit-exposes-38-billion-illegal-crypto-casino-market/",
+    logo: "/press/forbes.png"
+  },
 ];
