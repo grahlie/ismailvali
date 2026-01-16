@@ -79,4 +79,16 @@ export const press: PressItem[] = [
     url: "https://www.forbes.com/sites/boazsobrado/2026/01/08/drake-lawsuit-exposes-38-billion-illegal-crypto-casino-market/",
     logo: "/press/forbes.png"
   },
+  {
+    id: 14,
+    title: "Illegal Sports Streaming in UK Soared 33% in First Half of 2025",
+    url: "https://www.bloomberg.com/news/articles/2026-01-15/illegal-sports-streaming-in-uk-soared-33-in-first-half-of-2025?srnd=homepage-americas",
+    logo: "/press/bloomberg.png"
+  },
+  {
+    id: 14,
+    title: "Sports piracy explodes in UK with 3.6bn illegal streams and rise of black-market bookmakers",
+    url: "Sports piracy explodes in UK with 3.6bn illegal streams and rise of black-market bookmakers",
+    logo: "/press/guardian.png"
+  },
 ];
