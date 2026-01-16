@@ -88,7 +88,13 @@ export const press: PressItem[] = [
   {
     id: 14,
     title: "Sports piracy explodes in UK with 3.6bn illegal streams and rise of black-market bookmakers",
-    url: "Sports piracy explodes in UK with 3.6bn illegal streams and rise of black-market bookmakers",
-    logo: "/press/guardian.png"
+    url: "https://www.theguardian.com/sport/2026/jan/15/sports-piracy-explodes-uk-illegal-streams-black-market-bookmakers",
+    logo: "/press/theguardian.png"
+  },
+  {
+    id: 15,
+    title: "Nearly all GB illegal sports streams have black market gambling ads, report finds",
+    url: "https://next.io/news/regulation/illegal-sports-streams-black-market-gambling-ads/",
+    logo: "/press/next.png"
   },
 ];
