@@ -71,4 +71,11 @@ export const media: MediaItem[] = [
         title: "Yield Sec with Hedgeye - December 2025",
         thumbnail: "/masonry/Yield_Sec_with_Hedgeye-DEC-2025.png"
     },
+    {
+        id: 12,
+        type: "video",
+        youtubeId: "_lPAo2MWMgw",
+        title: "Ismail Vali in Sky News - How online gambling sites prey on addicts in the UK",
+        thumbnail: "/masonry/sky_news_thumbnail.png"
+    },
 ];

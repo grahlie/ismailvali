@@ -17,7 +17,7 @@ export default function Home() {
           <div className="aspect-[4/3] w-full relative overflow-hidden">
             <Image
               src="/header-image.png"
-              alt="Ismail Vali - Founder and CEO of Yield Sec, Technical Intelligence Platform Expert"
+              alt="Ismail Vali - President of GCI, former Founder and CEO of Yield Sec, Technical Intelligence Platform Expert"
               fill
               sizes="100vw"
               className="object-cover object-top scale-x-[-1]"
@@ -64,7 +64,7 @@ export default function Home() {
           <div className="relative">
             <Image
                 src="/header-image.png"
-                alt="Ismail Vali - Founder and CEO of Yield Sec, Technical Intelligence Platform Expert"
+                alt="Ismail Vali - President of GCI, former Founder and CEO of Yield Sec, Technical Intelligence Platform Expert"
                 fill
                 sizes="50vw"
                 className="object-cover object-top xl:object-center 2xl:object-top rounded-r-xl scale-x-[-1]"
