@@ -78,4 +78,11 @@ export const media: MediaItem[] = [
         title: "Ismail Vali in Sky News - How online gambling sites prey on addicts in the UK",
         thumbnail: "/masonry/sky_news_thumbnail.png"
     },
+    {
+        id: 13,
+        type: "video",
+        youtubeId: "_XS1zMrF_bU",
+        title: "iGB at ICE 2026",
+        thumbnail: "/masonry/igb_ice_2026.png"
+    },
 ];
