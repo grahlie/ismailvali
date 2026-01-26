@@ -97,4 +97,10 @@ export const press: PressItem[] = [
     url: "https://next.io/news/regulation/illegal-sports-streams-black-market-gambling-ads/",
     logo: "/press/next.png"
   },
+  {
+    id: 16,
+    title: "Illegal Sports Streaming in UK Soared 33% in First Half of 2025",
+    url: "https://www.bloomberg.com/news/articles/2026-01-15/illegal-sports-streaming-in-uk-soared-33-in-first-half-of-2025?srnd=homepage-americas&embedded-checkout=true",
+    logo: "/press/bloomberg.png"
+  },
 ];
