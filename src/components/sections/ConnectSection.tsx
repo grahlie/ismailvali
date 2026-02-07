@@ -14,6 +14,7 @@ export function ConnectSection() {
           <div className="max-w-4xl mx-auto text-center md:text-left">
             <div className="space-y-6 mb-12">
               <p className="h2 tracking-tight">ismail.vali@yieldsec.com</p>
+              <p className="h2 tracking-tight">ismail.vali@gamingcompliance.com</p>
             </div>
 
             <div className="flex items-center gap-4 justify-center md:justify-start">
