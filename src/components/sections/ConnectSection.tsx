@@ -2,8 +2,11 @@
 
 import { Button } from "@/components/ui/button";
 import { FadeInSection } from "@/components/ui/fade-in-section";
-import { Instagram, Linkedin, Youtube } from "lucide-react";
-import { TiktokIcon } from "../icons/TiktokIcon";
+import { InstagramIcon } from "@/components/icons/InstagramIcon";
+import { LinktreeIcon } from "@/components/icons/LinktreeIcon";
+import { LinkedinIcon } from "@/components/icons/LinkedinIcon";
+import { TiktokIcon } from "@/components/icons/TiktokIcon";
+import { YoutubeIcon } from "@/components/icons/YoutubeIcon";
 
 export function ConnectSection() {
   return (
@@ -20,12 +23,12 @@ export function ConnectSection() {
             <div className="flex items-center gap-4 justify-center md:justify-start">
               <a href="https://www.linkedin.com/in/ismailvali/" target="_blank" rel="noopener noreferrer">
                 <Button size="icon" className="connect-section-icon-button rounded-full">
-                  <Linkedin className="size-5" />
+                  <LinkedinIcon className="size-5" />
                 </Button>
               </a>
               <a href="https://www.instagram.com/ismailvali_/" target="_blank" rel="noopener noreferrer">
                 <Button size="icon" className="connect-section-icon-button rounded-full">
-                  <Instagram className="size-5" />
+                  <InstagramIcon className="size-5" />
                 </Button>
               </a>
               <a href="https://www.tiktok.com/@ismailvali_" target="_blank" rel="noopener noreferrer">
@@ -35,7 +38,12 @@ export function ConnectSection() {
               </a>
               <a href="https://www.youtube.com/@ismailvali_" target="_blank" rel="noopener noreferrer">
                 <Button size="icon" className="connect-section-icon-button rounded-full">
-                  <Youtube className="size-5" />
+                  <YoutubeIcon className="size-5" />
+                </Button>
+              </a>
+              <a href="https://linktr.ee/Ismailvali" target="_blank" rel="noopener noreferrer">
+                <Button size="icon" className="connect-section-icon-button rounded-full">
+                  <LinktreeIcon className="size-5" />
                 </Button>
               </a>
             </div>

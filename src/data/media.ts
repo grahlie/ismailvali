@@ -92,4 +92,11 @@ export const media: MediaItem[] = [
         title: "BBC Radio 5 Live - Adrian Chiles - Illegal online gambling and illegal steaming in GB",
         thumbnail: "/masonry/bbc_radio_5_live.png"
     },
+    {
+        id: 15,
+        type: "video",
+        youtubeId: "co_xIx9QnDk",
+        title: "Confronting Illegal Streaming & Gambling | Ismail Vali at ICE World Gaming Forum 2026",
+        thumbnail: "/masonry/world_gaming_forum_2026.png"
+    },
 ];
