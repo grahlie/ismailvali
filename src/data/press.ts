@@ -103,4 +103,10 @@ export const press: PressItem[] = [
     url: "https://www.bloomberg.com/news/articles/2026-01-15/illegal-sports-streaming-in-uk-soared-33-in-first-half-of-2025?srnd=homepage-americas&embedded-checkout=true",
     logo: "/press/bloomberg.png"
   },
+  {
+    id: 1017,
+    title: "Can prediction markets crack Europe’s regulatory block?",
+    url: "https://igamingbusiness.com/prediction-markets/can-prediction-markets-rack-europe-regulation/",
+    logo: "/press/igb.png"
+  },
 ];
