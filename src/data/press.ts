@@ -109,4 +109,10 @@ export const press: PressItem[] = [
     url: "https://igamingbusiness.com/prediction-markets/can-prediction-markets-rack-europe-regulation/",
     logo: "/press/igb.png"
   },
+  {
+    id: 1018,
+    title: "Europe Is Shutting Down Prediction Markets",
+    url: "https://parameter.io/why-europe-is-shutting-down-prediction-markets-while-america-embraces-them/",
+    logo: "/press/parameter.png"
+  },
 ];
