@@ -111,6 +111,18 @@
     left: -6vw; /* Mobile positioning */
   }
 
+  .section-title-small {
+    font-weight: var(--font-weight-black);
+    font-size: calc(clamp(48px, 12vw, 160px) / 3);
+    color: var(--foreground);
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 0.9;
+    letter-spacing: -0.02em;
+    position: relative;
+    left: calc(-6vw / 3);
+  }
+
   /* Desktop Overrides */
   @media (min-width: 768px) {
     :root {
@@ -123,6 +135,11 @@
       font-size: clamp(64px, 16vw, 240px); /* Responsive font size for desktop - bigger from start */
       text-align: left; /* Re-align on desktop */
       left: -4vw; /* Desktop positioning */
+    }
+
+    .section-title-small {
+      font-size: calc(clamp(64px, 16vw, 240px) / 3);
+      left: calc(-4vw / 3);
     }
   }
 

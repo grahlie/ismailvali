@@ -2,6 +2,7 @@ import "@/lib/localStorage-polyfill";
 import type { Metadata } from "next";
 import { Geist_Mono, Raleway } from "next/font/google";
 import "./globals.css";
+import { ScrollRevealNav } from "@/components/layout/scroll-reveal-nav";
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
@@ -15,13 +16,13 @@ const raleway = Raleway({
 });
 
 export const metadata: Metadata = {
-  title:
-    "Ismail Vali - Founder & CEO of Yield Sec | Technical Intelligence Platform",
+  title: "Ismail Vali - President of GCI and former Founder & CEO of Yield Sec",
   description:
-    "Ismail Vali is the inventor, founder and CEO of Yield Sec, a technical intelligence platform for online marketplaces. Expert in gambling, streaming, crypto, and consumer market intelligence.",
+    "Ismail Vali is the President of Gaming Compliance International (GCI) and the inventor, founder and former CEO of Yield Sec, a technical intelligence platform for online marketplaces. Expert in gambling, streaming, crypto, and consumer market intelligence.",
   keywords: [
     "Ismail Vali",
     "Yield Sec",
+    "Gaming Compliance International (GCI)",
     "technical intelligence platform",
     "online marketplace",
     "gambling intelligence",
@@ -51,24 +52,26 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://ismailvali.com",
-    title: "Ismail Vali - Founder & CEO of Yield Sec",
+    title:
+      "Ismail Vali - President of GCI and former Founder & CEO of Yield Sec",
     description:
-      "Ismail Vali is the inventor, founder and CEO of Yield Sec, a technical intelligence platform for online marketplaces.",
+      "Ismail Vali is the President of Gaming Compliance International (GCI) and the inventor, founder and former CEO of Yield Sec.",
     siteName: "Ismail Vali",
     images: [
       {
         url: "/header-image.png",
         width: 1200,
         height: 630,
-        alt: "Ismail Vali - Founder & CEO of Yield Sec",
+        alt: "Ismail Vali - President of GCI and former Founder & CEO of Yield Sec",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ismail Vali - Founder & CEO of Yield Sec",
+    title:
+      "Ismail Vali - President of GCI and former Founder & CEO of Yield Sec",
     description:
-      "Ismail Vali is the inventor, founder and CEO of Yield Sec, a technical intelligence platform for online marketplaces.",
+      "Ismail Vali is the President of Gaming Compliance International (GCI) and the inventor, founder and former CEO of Yield Sec.",
     images: ["/header-image.png"],
     creator: "@yieldsec",
   },
@@ -91,15 +94,15 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "Person",
     name: "Ismail Vali",
-    jobTitle: "Founder & CEO",
+    jobTitle: "President of GCI and former Founder & CEO of Yield Sec",
     worksFor: {
       "@type": "Organization",
-      name: "Yield Sec",
-      url: "https://www.yieldsec.com/",
-      description: "Technical intelligence platform for online marketplaces",
+      name: "Gaming Compliance International (GCI)",
+      url: "https://gamingcompliance.com/",
+      description: "Gaming Compliance International",
     },
     description:
-      "Ismail Vali is the inventor, founder and CEO of Yield Sec, a technical intelligence platform for online marketplaces.",
+      "Ismail Vali is the President of Gaming Compliance International (GCI) and the inventor, founder and former CEO of Yield Sec.",
     url: "https://ismailvali.com",
     sameAs: [
       "https://www.linkedin.com/company/yieldsec/",
@@ -126,9 +129,7 @@ export default function RootLayout({
         />
       </head>
       <body className={`${geistMono.variable} ${raleway.variable} antialiased`}>
-        <nav className="flex items-center justify-between px-6 h-16 border-b bg-background/80 sticky top-0 z-30">
-          <div className="font-bold text-xl tracking-wider">ISMAIL</div>
-        </nav>
+        <ScrollRevealNav />
         {children}
       </body>
     </html>
