@@ -6,6 +6,7 @@ export type MediaEntry =
       title: string;
       youtubeId: string;
       thumbnail?: string;
+      highlighted?: boolean;
     }
   | {
       id: number;
@@ -13,6 +14,7 @@ export type MediaEntry =
       title: string;
       url: string;
       logo: string;
+      highlighted?: boolean;
     }
   | {
       id: number;
@@ -20,6 +22,7 @@ export type MediaEntry =
       title: string;
       url: string;
       logo: string;
+      highlighted?: boolean;
     };
 
 /** Video rows only — used by `VideoGrid`. */

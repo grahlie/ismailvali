@@ -1,4 +1,5 @@
 import { AboutSection } from "@/components/sections/AboutSection";
+import { NewsSection } from "@/components/sections/NewsSection";
 import { GciSection } from "@/components/sections/GciSection";
 import { ConnectSection } from "@/components/sections/ConnectSection";
 import { YieldSecSection } from "@/components/sections/YieldSecSection";
@@ -95,6 +96,7 @@ export default function Home() {
         </div>
       </section>
 
+      <NewsSection />
       <AboutSection />
       <GciSection />
       <YieldSecSection />
