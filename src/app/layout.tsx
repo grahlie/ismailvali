@@ -15,11 +15,12 @@ const raleway = Raleway({
 });
 
 export const metadata: Metadata = {
-  title: "Ismail Vali - Founder & CEO of Yield Sec | Technical Intelligence Platform",
-  description: "Ismail Vali is the inventor, founder and CEO of Yield Sec, a technical intelligence platform for online marketplaces. Expert in gambling, streaming, crypto, and consumer market intelligence.",
+  title: "Ismail Vali is the President of Gaming Compliance International (GCI) and the inventor, founder and former CEO of Yield Sec™",
+  description: "Ismail Vali is the President of Gaming Compliance International (GCI) and the inventor, founder and former CEO of Yield Sec™",
   keywords: [
     "Ismail Vali",
     "Yield Sec",
+    "Gaming Compliance International GCI",
     "technical intelligence platform",
     "online marketplace",
     "gambling intelligence",
@@ -49,22 +50,22 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://ismailvali.com',
-    title: 'Ismail Vali - Founder & CEO of Yield Sec',
-    description: 'Ismail Vali is the inventor, founder and CEO of Yield Sec, a technical intelligence platform for online marketplaces.',
+    title: 'Ismail Vali is the President of Gaming Compliance International (GCI) and the inventor, founder and former CEO of Yield Sec™',
+    description: 'Ismail Vali is the President of Gaming Compliance International (GCI) and the inventor, founder and former CEO of Yield Sec™',
     siteName: 'Ismail Vali',
     images: [
       {
         url: '/header-image.png',
         width: 1200,
         height: 630,
-        alt: 'Ismail Vali - Founder & CEO of Yield Sec',
+        alt: 'Ismail Vali is the President of Gaming Compliance International (GCI) and the inventor, founder and former CEO of Yield Sec™',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Ismail Vali - Founder & CEO of Yield Sec',
-    description: 'Ismail Vali is the inventor, founder and CEO of Yield Sec, a technical intelligence platform for online marketplaces.',
+    title: 'Ismail Vali is the President of Gaming Compliance International (GCI) and the inventor, founder and former CEO of Yield Sec™',
+    description: 'Ismail Vali is the President of Gaming Compliance International (GCI) and the inventor, founder and former CEO of Yield Sec™',
     images: ['/header-image.png'],
     creator: '@yieldsec',
   },
@@ -94,7 +95,7 @@ export default function RootLayout({
       "url": "https://www.yieldsec.com/",
       "description": "Technical intelligence platform for online marketplaces"
     },
-    "description": "Ismail Vali is the inventor, founder and CEO of Yield Sec, a technical intelligence platform for online marketplaces.",
+    "description": "Ismail Vali is the President of Gaming Compliance International (GCI) and the inventor, founder and former CEO of Yield Sec™",
     "url": "https://ismailvali.com",
     "sameAs": [
       "https://www.linkedin.com/company/yieldsec/",
