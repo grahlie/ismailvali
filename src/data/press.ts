@@ -127,4 +127,10 @@ export const press: PressItem[] = [
     url: "https://www.independent.ie/irish-news/champions-league-final-draws-over-one-million-illegal-streams-in-ireland-despite-free-rte-coverage/a/155027233.html",
     logo: "/press/irish-independent.png"
   },
+  {
+    id: 1021,
+    title: "‘Third Largest Economy’—$5.9 Trillion Gambling Beyond Regulation",
+    url: "https://www.forbes.com/sites/boazsobrado/2026/05/14/third-largest-economy-59-trillion-gambling-beyond-regulation/",
+    logo: "/press/forbes.png"
+  },
 ];
