@@ -99,4 +99,25 @@ export const media: MediaItem[] = [
         title: "Confronting Illegal Streaming & Gambling | Ismail Vali at ICE World Gaming Forum 2026",
         thumbnail: "/masonry/world_gaming_forum_2026.png"
     },
+    {
+        id: 16,
+        type: "video",
+        youtubeId: "-cRHr_XEz80",
+        title: "Right About Now with GCI - May 2026",
+        thumbnail: "/masonry/Right_About_Now_with_GCI-May_2026.png"
+    },
+    {
+        id: 17,
+        type: "video",
+        youtubeId: "SBi5moGLeUU",
+        title: "Hedgeye with GCI: May 2026",
+        thumbnail: "/masonry/Hedgeye_with_GCI_May_2026.png"
+    },
+    {
+        id: 18,
+        type: "video",
+        youtubeId: "e_GbhQxCDAs",
+        title: "GCI with RUV - June 2026",
+        thumbnail: "/masonry/GCI_with_RUV-June_2026.png"
+    },
 ];

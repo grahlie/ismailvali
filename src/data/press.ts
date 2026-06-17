@@ -115,4 +115,16 @@ export const press: PressItem[] = [
     url: "https://parameter.io/why-europe-is-shutting-down-prediction-markets-while-america-embraces-them/",
     logo: "/press/parameter.png"
   },
+  {
+    id: 1019,
+    title: "Arsenal v PSG had an estimated 16.2m illegal stream views in UK after not being free-to-air",
+    url: "https://www.theguardian.com/football/2026/jun/01arsenal-psg-illegal-stream-views-tnt-champions-league-final",
+    logo: "/press/theguardian.png"
+  },
+  {
+    id: 1020,
+    title: "Champions League final draws over one million illegal streams in Ireland despite free RTÉ coverage",
+    url: "https://www.independent.ie/irish-news/champions-league-final-draws-over-one-million-illegal-streams-in-ireland-despite-free-rte-coverage/a/155027233.html",
+    logo: "/press/irish-independent.png"
+  },
 ];
