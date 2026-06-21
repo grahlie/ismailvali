@@ -133,4 +133,10 @@ export const press: PressItem[] = [
     url: "https://www.forbes.com/sites/boazsobrado/2026/05/14/third-largest-economy-59-trillion-gambling-beyond-regulation/",
     logo: "/press/forbes.png"
   },
+  {
+    id: 1022,
+    title: "‘World Cup of Crime': $593B Bet, 69% unregulated",
+    url: "https://www.forbes.com/sites/boazsobrado/2026/06/18/world-cup-of-crime-593-billion-bet-as-illegal-books-take-69/",
+    logo: "/press/forbes.png"
+  },
 ];

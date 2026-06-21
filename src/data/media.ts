@@ -120,4 +120,11 @@ export const media: MediaItem[] = [
         title: "GCI with RUV - June 2026",
         thumbnail: "/masonry/GCI_with_RUV-June_2026.png"
     },
+    {
+        id: 19,
+        type: "video",
+        youtubeId: "u3dAvpMblXU",
+        title: "Select Moments - Ismail Vali on Online Gaming",
+        thumbnail: "/masonry/Select_Moments-Ismail_Vali_on_Online_Gaming.jpg"
+    },
 ];
