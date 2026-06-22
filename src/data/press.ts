@@ -139,10 +139,4 @@ export const press: PressItem[] = [
     url: "https://www.forbes.com/sites/boazsobrado/2026/06/18/world-cup-of-crime-593-billion-bet-as-illegal-books-take-69/",
     logo: "/press/forbes.png"
   },
-  {
-    id: 1023,
-    title: "Unregulated sector claims don't match the evidence",
-    url: "https://www.politicshome.com/members/article/gambling-sectors-unlicenced-maket-claims-dont-match-evidence",
-    logo: "/press/politicshome.png"
-  },
 ];
