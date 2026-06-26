@@ -139,4 +139,10 @@ export const press: PressItem[] = [
     url: "https://www.forbes.com/sites/boazsobrado/2026/06/18/world-cup-of-crime-593-billion-bet-as-illegal-books-take-69/",
     logo: "/press/forbes.png"
   },
+  {
+    id: 1023,
+    title: "Player protection: Why World Cup gambling warnings have changed",
+    url: "https://igamingbusiness.com/sports-betting/why-europe-world-cup-gambling-warnings-have-changed/",
+    logo: "/press/igb.png"
+  },
 ];
