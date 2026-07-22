@@ -145,4 +145,10 @@ export const press: PressItem[] = [
     url: "https://igamingbusiness.com/sports-betting/why-europe-world-cup-gambling-warnings-have-changed/",
     logo: "/press/igb.png"
   },
+  {
+    id: 1024,
+    title: "Africa's $18 billion unregulated gambling blind spot",
+    url: "https://www.forbesafrica.com/brand-voice/2026/07/16/africas-18-billion-blind-spot-why-smarter-regulation-is-the-next-frontier-for-its-gaming-economy",
+    logo: "/press/forbes.png"
+  },
 ];
