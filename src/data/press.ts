@@ -151,4 +151,16 @@ export const press: PressItem[] = [
     url: "https://www.forbesafrica.com/brand-voice/2026/07/16/africas-18-billion-blind-spot-why-smarter-regulation-is-the-next-frontier-for-its-gaming-economy",
     logo: "/press/forbes.png"
   },
+  {
+    id: 1025,
+    title: "Prediction Markets: Europe looks to existing models for regulation",
+    url: "https://igamingbusiness.com/prediction-markets/esma-prediction-markets-free-ride-europe/",
+    logo: "/press/igb.png"
+  },
+  {
+    id: 1026,
+    title: "Marketplace outcomes will define Africa's online gambling future",
+    url: "https://sigma.world/news/africa-online-gambling-market-gci-report-ismail-vali/",
+    logo: "/press/sigma.png"
+  },
 ];
