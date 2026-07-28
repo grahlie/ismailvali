@@ -127,4 +127,18 @@ export const media: MediaItem[] = [
         title: "Select Moments - Ismail Vali on Online Gaming",
         thumbnail: "/masonry/Select_Moments-Ismail_Vali_on_Online_Gaming.jpg"
     },
+    {
+        id: 20,
+        type: "video",
+        youtubeId: "IjXhdUuZVBo",
+        title: "GCI President Ismail Vali with CNBC Africa - July 2026",
+        thumbnail: "/masonry/IjXhdUuZVBo.jpg"
+    },
+    {
+        id: 21,
+        type: "video",
+        youtubeId: "I_1vKji4JJ8",
+        title: "GCI President Ismail Vali with Travis Makes Friends - July 2026",
+        thumbnail: "/masonry/I_1vKji4JJ8.jpg"
+    },
 ];
