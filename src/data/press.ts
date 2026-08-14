@@ -163,4 +163,10 @@ export const press: PressItem[] = [
     url: "https://sigma.world/news/africa-online-gambling-market-gci-report-ismail-vali/",
     logo: "/press/sigma.png"
   },
+  {
+    id: 102,
+    title: '"Crime laughing at all of us" - US unregulated gambling put at $97bn',
+    url: "https://www.forbes.com/sites/boazsobrado/2026/08/10/crime-laughing-at-all-of-us-us-illegal-gambling-put-at-97-billion/",
+    logo: "/press/forbes.png"
+  },
 ];
