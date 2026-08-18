@@ -164,9 +164,15 @@ export const press: PressItem[] = [
     logo: "/press/sigma.png"
   },
   {
-    id: 102,
+    id: 1027,
     title: '"Crime laughing at all of us" - US unregulated gambling put at $97bn',
     url: "https://www.forbes.com/sites/boazsobrado/2026/08/10/crime-laughing-at-all-of-us-us-illegal-gambling-put-at-97-billion/",
     logo: "/press/forbes.png"
+  },
+  {
+    id: 1028,
+    title: 'Albania prepares to bring sports betting back',
+    url: "https://igamingbusiness.com/sports-betting/as-albania-prepares-to-bring-sports-betting-out-of-the-shadows-conditions-favour-international-operators/",
+    logo: "/press/igb.png"
   },
 ];
