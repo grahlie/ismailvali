@@ -1,3 +1,4 @@
+import { SocialLinks } from "@/components/SocialLinks";
 import { AboutSection } from "@/components/sections/AboutSection";
 import { CgiSection } from "@/components/sections/CgiSection";
 import { ConnectSection } from "@/components/sections/ConnectSection";
@@ -7,6 +8,25 @@ import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 
 const headerText = "Ismail Vali is the President of GCI and the inventor, founder and former CEO of Yield Sec™, a leading technical intelligence platform for online marketplaces.";
+
+function HeroActions() {
+  return (
+    <div className="space-y-4">
+      <div className="flex gap-4">
+        <Button size="lg" className="button-text" asChild>
+          <a href="#connect">Get in touch</a>
+        </Button>
+        <Button variant="outline" size="lg" className="button-text" asChild>
+          <a href="#about" className="flex items-center gap-2">
+            About me
+            <ArrowRight className="size-4" />
+          </a>
+        </Button>
+      </div>
+      <SocialLinks />
+    </div>
+  );
+}
 
 export default function Home() {
   return (
@@ -28,17 +48,7 @@ export default function Home() {
             <h1 className="h1 leading-tight">
               {headerText}
             </h1>
-            <div className="flex gap-4">
-              <Button size="lg" className="button-text" asChild>
-                <a href="#connect">Get in touch</a>
-              </Button>
-              <Button variant="outline" size="lg" className="button-text" asChild>
-                <a href="#about" className="flex items-center gap-2">
-                  About me
-                  <ArrowRight className="size-4" />
-                </a>
-              </Button>
-            </div>
+            <HeroActions />
           </div>
         </div>
 
@@ -48,17 +58,7 @@ export default function Home() {
             <h1 className="h1 leading-tight">
               {headerText}
             </h1>
-            <div className="flex gap-4">
-              <Button size="lg" className="button-text" asChild>
-                <a href="#connect">Get in touch</a>
-              </Button>
-              <Button variant="outline" size="lg" className="button-text" asChild>
-                <a href="#about" className="flex items-center gap-2">
-                  About me
-                  <ArrowRight className="size-4" />
-                </a>
-              </Button>
-            </div>
+            <HeroActions />
           </div>
 
           <div className="relative">
