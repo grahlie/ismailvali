@@ -125,9 +125,9 @@ export default function RootLayout({
       <body
         className={`${geistMono.variable} ${raleway.variable} antialiased`}
       >
-        <nav className="flex items-center justify-between gap-3 px-6 h-16 border-b bg-background/80 sticky top-0 z-30">
-          <div className="font-bold text-base sm:text-xl tracking-wider shrink-0">ISMAIL VALI</div>
-          <SocialLinks size="sm" />
+        <nav className="flex items-center justify-between gap-3 px-4 sm:px-6 h-16 border-b bg-background/80 sticky top-0 z-30 min-w-0">
+          <div className="font-bold text-sm sm:text-xl tracking-wider shrink-0">ISMAIL VALI</div>
+          <SocialLinks size="sm" className="min-w-0 justify-end" />
         </nav>
         {children}
       </body>

@@ -101,14 +101,16 @@
 
   .section-title {
     font-weight: var(--font-weight-black);
-    font-size: clamp(48px, 12vw, 160px); /* Responsive font size - bigger from start */
+    font-size: clamp(40px, 11vw, 160px);
     color: var(--foreground);
     text-transform: uppercase;
-    text-align: left; /* Left align on all screen sizes */
-    line-height: 0.9; /* Tighter line height for large text */
-    letter-spacing: -0.02em; /* Slightly tighter letter spacing */
+    text-align: left;
+    line-height: 0.9;
+    letter-spacing: -0.02em;
     position: relative;
-    left: -6vw; /* Mobile positioning */
+    left: 0;
+    max-width: 100%;
+    overflow-wrap: anywhere;
   }
 
   /* Desktop Overrides */
@@ -161,6 +163,11 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: clip;
+}
+
+body {
+  overflow-x: clip;
 }
 
 /* Fade-in Animation */

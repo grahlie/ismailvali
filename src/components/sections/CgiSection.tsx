@@ -15,7 +15,7 @@ export function CgiSection() {
             GCI’s focus is on enhancing marketplace transparency and revenue optimization for regulators and licensed operators while establishing a robust compliance framework that protects jurisdictions, audiences, and the broader gaming ecosystem.
             </p>
             <div className="flex justify-start">
-              <Button size="lg" className="button-text" asChild>
+              <Button size="lg" className="button-text max-w-full whitespace-normal h-auto py-2" asChild>
                 <a href="https://gamingcompliance.com/" target="_blank" rel="noopener noreferrer">
                   Visit GamingCompliance.com
                 </a>

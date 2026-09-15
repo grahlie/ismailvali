@@ -12,7 +12,7 @@ const headerText = "Ismail Vali is the President of GCI and the inventor, founde
 function HeroActions() {
   return (
     <div className="space-y-4">
-      <div className="flex gap-4">
+      <div className="flex flex-wrap gap-4">
         <Button size="lg" className="button-text" asChild>
           <a href="#connect">Get in touch</a>
         </Button>

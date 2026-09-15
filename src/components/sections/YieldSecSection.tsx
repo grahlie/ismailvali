@@ -14,7 +14,7 @@ export function YieldSecSection() {
               Yield Sec™, short for yield security, is a technical intelligence platform monitoring all audience activity across gambling, streaming, crypto and consumer goods to see the total online marketplace - both legal and illegal. Yield Sec delivers analysis, actions and recommendations to ensure online stakeholders make the money they should - and are not stolen from by crime.
             </p>
             <div className="flex justify-start">
-              <Button size="lg" className="button-text" asChild>
+              <Button size="lg" className="button-text max-w-full whitespace-normal h-auto py-2" asChild>
                 <a href="https://www.yieldsec.com/" target="_blank" rel="noopener noreferrer">
                   Visit Yieldsec.com
                 </a>
