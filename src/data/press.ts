@@ -175,4 +175,10 @@ export const press: PressItem[] = [
     url: "https://igamingbusiness.com/sports-betting/as-albania-prepares-to-bring-sports-betting-out-of-the-shadows-conditions-favour-international-operators/",
     logo: "/press/igb.png"
   },
+  {
+    id: 1029,
+    title: "Unregulated operators take 72% of Europe's online gambling revenue",
+    url: "https://www.forbes.com/sites/boazsobrado/2026/09/22/unlicensed-operators-now-take-72-of-europes-online-gambling-money/",
+    logo: "/press/forbes.png"
+  },
 ];

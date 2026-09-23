@@ -2,6 +2,7 @@ import { InstagramIcon } from "@/components/icons/InstagramIcon";
 import { LinktreeIcon } from "@/components/icons/LinktreeIcon";
 import { LinkedinIcon } from "@/components/icons/LinkedinIcon";
 import { TiktokIcon } from "@/components/icons/TiktokIcon";
+import { XIcon } from "@/components/icons/XIcon";
 import { YoutubeIcon } from "@/components/icons/YoutubeIcon";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
@@ -16,6 +17,11 @@ const socialLinks: {
     name: "LinkedIn",
     href: "https://www.linkedin.com/in/ismailvali/",
     icon: LinkedinIcon,
+  },
+  {
+    name: "X",
+    href: "https://x.com/ismailvali_",
+    icon: XIcon,
   },
   {
     name: "Instagram",
