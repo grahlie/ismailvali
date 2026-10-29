@@ -181,4 +181,10 @@ export const press: PressItem[] = [
     url: "https://www.forbes.com/sites/boazsobrado/2026/09/22/unlicensed-operators-now-take-72-of-europes-online-gambling-money/",
     logo: "/press/forbes.png"
   },
+  {
+    id: 1030,
+    title: "UK industry warns of unregulated surge following MGD rise",
+    url: "https://igamingbusiness.com/finance/uk-industry-warns-of-illegal-market-surge-following-5-rise-in-mgd/",
+    logo: "/press/igb.png"
+  },
 ];
