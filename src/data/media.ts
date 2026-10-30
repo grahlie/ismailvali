@@ -141,4 +141,11 @@ export const media: MediaItem[] = [
         title: "GCI President Ismail Vali with Travis Makes Friends - July 2026",
         thumbnail: "/masonry/I_1vKji4JJ8.jpg"
     },
+    {
+        id: 22,
+        type: "video",
+        youtubeId: "J8PcO0cLKS0",
+        title: "Ismail Vali - Speech Highlights September 2026",
+        thumbnail: "/masonry/J8PcO0cLKS0.jpg"
+    },
 ];
