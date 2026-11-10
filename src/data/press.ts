@@ -187,4 +187,10 @@ export const press: PressItem[] = [
     url: "https://igamingbusiness.com/finance/uk-industry-warns-of-illegal-market-surge-following-5-rise-in-mgd/",
     logo: "/press/igb.png"
   },
+  {
+    id: 1031,
+    title: "UKGC: 2.5% of UK online gamblers use illegal sites, but GCI questions survey",
+    url: "https://igamingbusiness.com/legal-compliance/illegal-gambling-websites-2-5-of-online-gamblers-in-latest-uk-survey/",
+    logo: "/press/igb.png"
+  },
 ];
